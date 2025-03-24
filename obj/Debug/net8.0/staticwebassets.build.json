@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QucgBORrwtSpym6nFIBlIpxtW30z0/U4/p3Yl4jiex4=",
+  "Hash": "Y1tShiTzcjq6Muypr25hwuBZ3r9dYZKeADPrGT7zG2E=",
   "Source": "ListaTarefasAPI",
   "BasePath": "_content/ListaTarefasAPI",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6r1gjways2",
-      "Integrity": "HgDKUHbBVTDiOtAPVFwIfTyo97Mz9QYluWjSvsBHVB4=",
+      "Fingerprint": "8lcrcs1mqx",
+      "Integrity": "hHsYJTzIxAb6WHCGzuCbErWxH6xZAuayrcunW7kZckY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v3454pgavx",
-      "Integrity": "9VNprakCfpOfWuoWAa5h6Pq+/jgTyLw6fridgL3FjHw=",
+      "Fingerprint": "ianakye6v1",
+      "Integrity": "alCdDSknv7Be9I4P6mGU7Rszw87e1BCn6gRnerys5m0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
@@ -82,7 +82,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/style.6r1gjways2.css",
+      "Route": "css/style.8lcrcs1mqx.css",
       "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -92,7 +92,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1136"
+          "Value": "1979"
         },
         {
           "Name": "Content-Type",
@@ -100,11 +100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HgDKUHbBVTDiOtAPVFwIfTyo97Mz9QYluWjSvsBHVB4=\""
+          "Value": "\"hHsYJTzIxAb6WHCGzuCbErWxH6xZAuayrcunW7kZckY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 15:22:40 GMT"
+          "Value": "Mon, 24 Mar 2025 16:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -114,7 +114,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6r1gjways2"
+          "Value": "8lcrcs1mqx"
         },
         {
           "Name": "label",
@@ -122,7 +122,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HgDKUHbBVTDiOtAPVFwIfTyo97Mz9QYluWjSvsBHVB4="
+          "Value": "sha256-hHsYJTzIxAb6WHCGzuCbErWxH6xZAuayrcunW7kZckY="
         }
       ]
     },
@@ -137,7 +137,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1136"
+          "Value": "1979"
         },
         {
           "Name": "Content-Type",
@@ -145,11 +145,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HgDKUHbBVTDiOtAPVFwIfTyo97Mz9QYluWjSvsBHVB4=\""
+          "Value": "\"hHsYJTzIxAb6WHCGzuCbErWxH6xZAuayrcunW7kZckY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 15:22:40 GMT"
+          "Value": "Mon, 24 Mar 2025 16:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -159,7 +159,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HgDKUHbBVTDiOtAPVFwIfTyo97Mz9QYluWjSvsBHVB4="
+          "Value": "sha256-hHsYJTzIxAb6WHCGzuCbErWxH6xZAuayrcunW7kZckY="
         }
       ]
     },
@@ -246,6 +246,51 @@
       ]
     },
     {
+      "Route": "js/script.ianakye6v1.js",
+      "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"alCdDSknv7Be9I4P6mGU7Rszw87e1BCn6gRnerys5m0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 16:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ianakye6v1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-alCdDSknv7Be9I4P6mGU7Rszw87e1BCn6gRnerys5m0="
+        }
+      ]
+    },
+    {
       "Route": "js/script.js",
       "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\js\\script.js",
       "Selectors": [],
@@ -256,7 +301,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3524"
+          "Value": "4249"
         },
         {
           "Name": "Content-Type",
@@ -264,11 +309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9VNprakCfpOfWuoWAa5h6Pq+/jgTyLw6fridgL3FjHw=\""
+          "Value": "\"alCdDSknv7Be9I4P6mGU7Rszw87e1BCn6gRnerys5m0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 15:53:23 GMT"
+          "Value": "Mon, 24 Mar 2025 16:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -278,52 +323,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9VNprakCfpOfWuoWAa5h6Pq+/jgTyLw6fridgL3FjHw="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.v3454pgavx.js",
-      "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\js\\script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3524"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9VNprakCfpOfWuoWAa5h6Pq+/jgTyLw6fridgL3FjHw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 15:53:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v3454pgavx"
-        },
-        {
-          "Name": "label",
-          "Value": "js/script.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9VNprakCfpOfWuoWAa5h6Pq+/jgTyLw6fridgL3FjHw="
+          "Value": "sha256-alCdDSknv7Be9I4P6mGU7Rszw87e1BCn6gRnerys5m0="
         }
       ]
     }
