@@ -63,10 +63,12 @@ function displayTasks(tasks) {
             <h3>${task.titulo}</h3>
             <p>${task.descricao || 'Sem descrição'}</p>
             <p><strong>Status:</strong> ${task.status}</p>
+            <button onclick="deleteTask(${task.id})">Excluir</button>
         `;
         taskList.appendChild(taskElement);
     });
 }
+
 
 async function createTask(task) {
     try {
@@ -110,3 +112,23 @@ async function createTask(task) {
     }
 }
 
+async function deleteTask(taskId) {
+    try {
+        console.log("Excluindo tarefa com ID:", taskId);
+
+        const response = await fetch(`${apiUrl}/${taskId}`, {
+            method: 'DELETE',
+        });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(errorText || "Erro desconhecido");
+        }
+
+        console.log("Tarefa excluída com sucesso!");
+        loadTasks(); // Recarregar lista de tarefas após exclusão
+    } catch (error) {
+        console.error("Erro ao excluir tarefa:", error);
+        alert('Erro ao excluir tarefa: ' + error.message);
+    }
+}
