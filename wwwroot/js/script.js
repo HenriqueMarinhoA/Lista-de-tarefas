@@ -1,33 +1,55 @@
 ﻿const apiUrl = 'http://localhost:5000/api/tarefas';
 
+// Carrega as tarefas ao carregar a página
 document.addEventListener('DOMContentLoaded', loadTasks);
 
-document.getElementById('taskForm').addEventListener('submit', function (event) {
-    event.preventDefault();
-    const titulo = document.getElementById('titulo').value;
-    const descricao = document.getElementById('descricao').value;
-    const status = document.getElementById('status').value;
+// Verifica se o formulário existe antes de adicionar o evento
+const taskForm = document.getElementById('taskForm');
+if (taskForm) {
+    taskForm.addEventListener('submit', async function (event) {
+        event.preventDefault();
+        console.log("Evento submit acionado!");
 
-    const newTask = {
-        titulo,
-        descricao,
-        status
-    };
+        const titulo = document.getElementById('titulo').value.trim();
+        const descricao = document.getElementById('descricao').value.trim();
+        const status = document.getElementById('status').value;
 
-    createTask(newTask);
-});
+        // Verifica se o campo de título não está vazio
+        if (!titulo) {
+            alert("O título da tarefa é obrigatório!");
+            return;
+        }
+
+        const newTask = {
+            titulo,
+            descricao,
+            status
+        };
+
+        console.log("Nova tarefa a ser enviada:", newTask);
+        await createTask(newTask);
+    });
+} else {
+    console.error("Erro: Formulário não encontrado!");
+}
 
 async function loadTasks() {
-    const filterStatus = document.getElementById('filterStatus').value;
-    let url = apiUrl;
+    try {
+        const filterStatus = document.getElementById('filterStatus').value;
+        let url = apiUrl;
 
-    if (filterStatus) {
-        url = `${url}?status=${filterStatus}`;
+        if (filterStatus) {
+            url = `${url}?status=${filterStatus}`;
+        }
+
+        const response = await fetch(url);
+        if (!response.ok) throw new Error("Erro ao carregar tarefas");
+
+        const tasks = await response.json();
+        displayTasks(tasks);
+    } catch (error) {
+        console.error("Erro ao carregar tarefas:", error);
     }
-
-    const response = await fetch(url);
-    const tasks = await response.json();
-    displayTasks(tasks);
 }
 
 function displayTasks(tasks) {
@@ -39,7 +61,7 @@ function displayTasks(tasks) {
         taskElement.classList.add('task');
         taskElement.innerHTML = `
             <h3>${task.titulo}</h3>
-            <p>${task.descricao}</p>
+            <p>${task.descricao || 'Sem descrição'}</p>
             <p><strong>Status:</strong> ${task.status}</p>
         `;
         taskList.appendChild(taskElement);
@@ -47,24 +69,44 @@ function displayTasks(tasks) {
 }
 
 async function createTask(task) {
-    console.log("Tentando criar tarefa com os dados: ", task);
+    try {
+        console.log("Enviando tarefa para a API...");
 
-    const response = await fetch(apiUrl, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(task)
-    });
+        // Mapeando o status para um número
+        const statusMap = {
+            "Pendente": 0,
+            "EmProgresso": 1,
+            "Concluída": 2
+        };
 
-    console.log("Status da resposta:", response.status);
+        const formattedTask = {
+            titulo: task.titulo,
+            descricao: task.descricao,
+            dataCriacao: new Date().toISOString(), // Gera data atual no formato correto
+            dataConclusao: null, // Deixa como null inicialmente
+            status: statusMap[task.status] // Converte o status para número
+        };
 
-    if (response.ok) {
+        const response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formattedTask)
+        });
+
+        console.log("Status da resposta:", response.status);
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(errorText || "Erro desconhecido");
+        }
+
         console.log("Tarefa criada com sucesso!");
-        loadTasks(); // Carregar novamente as tarefas
-    } else {
-        const errorText = await response.text();
-        console.log("Erro ao criar tarefa:", errorText);
-        alert('Erro ao criar tarefa');
+        loadTasks(); // Recarregar lista de tarefas
+    } catch (error) {
+        console.error("Erro ao criar tarefa:", error);
+        alert('Erro ao criar tarefa: ' + error.message);
     }
 }
+

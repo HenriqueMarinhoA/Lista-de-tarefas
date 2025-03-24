@@ -3,11 +3,11 @@
     public class Tarefa
     {
         //Id da Tarefa
-        public int Id { get; set; }  
+        public int Id { get; set; }
 
         //Título da Tarefa
-        public string Titulo { get; set; }  
-        
+        public string Titulo { get; set; }
+
         //Descrição da Tarefa
         public string Descricao { get; set; }
 
@@ -18,7 +18,7 @@
         public DateTime? DataConclusao { get; set; }
 
         //Status da tarefa  (Pendente, EmProgresso, Concluída)
-        public StatusTarefa Status { get; set; }  
+        public StatusTarefa Status { get; set; }
     }
 
     public enum StatusTarefa

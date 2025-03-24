@@ -154,6 +154,7 @@ C:\ProjetosHenrique\ListaTarefasAPI\obj\Debug\net8.0\ListaTarefasAPI.AssemblyInf
 C:\ProjetosHenrique\ListaTarefasAPI\obj\Debug\net8.0\ListaTarefasAPI.csproj.CoreCompileInputs.cache
 C:\ProjetosHenrique\ListaTarefasAPI\obj\Debug\net8.0\ListaTarefasAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\ProjetosHenrique\ListaTarefasAPI\obj\Debug\net8.0\ListaTarefasAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\ProjetosHenrique\ListaTarefasAPI\obj\Debug\net8.0\ListaTarefasAPI.sourcelink.json
 C:\ProjetosHenrique\ListaTarefasAPI\obj\Debug\net8.0\scopedcss\bundle\ListaTarefasAPI.styles.css
 C:\ProjetosHenrique\ListaTarefasAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\ProjetosHenrique\ListaTarefasAPI\obj\Debug\net8.0\staticwebassets.development.json
