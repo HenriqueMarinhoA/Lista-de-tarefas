@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ListaTarefasAPI/css/style.9exrl5upw1.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9exrl5upw1"},{"Name":"integrity","Value":"sha256-0WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D\u002B02Uz2h8="},{"Name":"label","Value":"_content/ListaTarefasAPI/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1049"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D\u002B02Uz2h8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 21:29:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ListaTarefasAPI/css/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D\u002B02Uz2h8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1049"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D\u002B02Uz2h8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 21:29:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ListaTarefasAPI/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1551"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 23:37:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ListaTarefasAPI/index.ydv3zhzoeo.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ydv3zhzoeo"},{"Name":"integrity","Value":"sha256-ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg="},{"Name":"label","Value":"_content/ListaTarefasAPI/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1551"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 23:37:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ListaTarefasAPI/js/script.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw\u002BkHxr6iEB4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2020"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw\u002BkHxr6iEB4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 00:03:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ListaTarefasAPI/js/script.mesci5hotw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mesci5hotw"},{"Name":"integrity","Value":"sha256-Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw\u002BkHxr6iEB4="},{"Name":"label","Value":"_content/ListaTarefasAPI/js/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2020"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw\u002BkHxr6iEB4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 00:03:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

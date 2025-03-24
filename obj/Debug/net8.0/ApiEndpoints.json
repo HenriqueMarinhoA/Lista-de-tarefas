@@ -1,0 +1,87 @@
+[
+  {
+    "ContainingType": "ListaTarefasAPI.Apresentacao.Controladores.TarefasController",
+    "Method": "ObterTodasTarefas",
+    "RelativePath": "api/Tarefas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListaTarefasAPI.Apresentacao.Controladores.TarefasController",
+    "Method": "CriarTarefa",
+    "RelativePath": "api/Tarefas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefa",
+        "Type": "ListaTarefasAPI.Dominio.Tarefa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListaTarefasAPI.Apresentacao.Controladores.TarefasController",
+    "Method": "ObterTarefa",
+    "RelativePath": "api/Tarefas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListaTarefasAPI.Apresentacao.Controladores.TarefasController",
+    "Method": "AtualizarTarefa",
+    "RelativePath": "api/Tarefas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tarefa",
+        "Type": "ListaTarefasAPI.Dominio.Tarefa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ListaTarefasAPI.Apresentacao.Controladores.TarefasController",
+    "Method": "DeletarTarefa",
+    "RelativePath": "api/Tarefas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

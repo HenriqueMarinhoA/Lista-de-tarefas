@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Tarefas</h1>
+
+        <div class="form-container">
+            <h2>Criar Tarefa</h2>
+            <form id="taskForm">
+                <input type="text" id="titulo" placeholder="Título" required>
+                <textarea id="descricao" placeholder="Descrição (opcional)"></textarea>
+                <select id="status">
+                    <option value="Pendente">Pendente</option>
+                    <option value="EmProgresso">Em Progresso</option>
+                    <option value="Concluída">Concluída</option>
+                </select>
+                <button type="submit">Criar Tarefa</button>
+            </form>
+        </div>
+
+        <div class="filter-container">
+            <h2>Filtrar Tarefas</h2>
+            <select id="filterStatus" onchange="loadTasks()">
+                <option value="">Selecione o Status</option>
+                <option value="Pendente">Pendente</option>
+                <option value="EmProgresso">Em Progresso</option>
+                <option value="Concluída">Concluída</option>
+            </select>
+        </div>
+
+        <div id="taskList" class="task-list">
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

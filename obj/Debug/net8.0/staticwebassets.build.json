@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "q6athu/RoGJuy9AGCu2wv8mlOBtSxfC6AFuyMtLPDyY=",
+  "Source": "ListaTarefasAPI",
+  "BasePath": "_content/ListaTarefasAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ListaTarefasAPI\\wwwroot",
+      "Source": "ListaTarefasAPI",
+      "ContentRoot": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\",
+      "BasePath": "_content/ListaTarefasAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\css\\style.css",
+      "SourceId": "ListaTarefasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\",
+      "BasePath": "_content/ListaTarefasAPI",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9exrl5upw1",
+      "Integrity": "0WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D+02Uz2h8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\index.html",
+      "SourceId": "ListaTarefasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\",
+      "BasePath": "_content/ListaTarefasAPI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ydv3zhzoeo",
+      "Integrity": "ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\js\\script.js",
+      "SourceId": "ListaTarefasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\",
+      "BasePath": "_content/ListaTarefasAPI",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mesci5hotw",
+      "Integrity": "Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw+kHxr6iEB4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.9exrl5upw1.css",
+      "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D+02Uz2h8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Mar 2025 21:29:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9exrl5upw1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D+02Uz2h8="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D+02Uz2h8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Mar 2025 21:29:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0WpPsEzZK0stynwGdyFqsxB64YCTgn71c3D+02Uz2h8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Mar 2025 23:37:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg="
+        }
+      ]
+    },
+    {
+      "Route": "index.ydv3zhzoeo.html",
+      "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Mar 2025 23:37:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ydv3zhzoeo"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ptjL0M4shZVcDLboBXQPA3gz3rJUBWaCiZsQLyKiBeg="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw+kHxr6iEB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 00:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw+kHxr6iEB4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.mesci5hotw.js",
+      "AssetFile": "C:\\ProjetosHenrique\\ListaTarefasAPI\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw+kHxr6iEB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 00:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mesci5hotw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mk8hZ/XV3oCI4UXc/3IWYJzJoPZwtbTpw+kHxr6iEB4="
+        }
+      ]
+    }
+  ]
+}
